@@ -1,0 +1,65 @@
+.top{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 10vw;
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.awesome-holder{
+    display: flex;
+    width: 1000px;
+    align-self: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.awesome{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    flex: 400px 0 1;
+    max-width: 400px;
+}
+
+.awesome p{
+    font-size: 18px;
+    font-weight: 10;
+    color: #E5E7EB;
+}
+
+button{
+    margin: 0px;
+}
+
+.big-image{
+    flex: 500px 0 0;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightslategray;
+}
+.links{
+    display: flex;
+    gap: 10px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
