@@ -2,6 +2,7 @@
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 20px 100px 10vw;
     background-color: #1F2937;
 }
@@ -9,8 +10,11 @@
 .header{
     display: flex;
     align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
     justify-content: space-between;
     margin-bottom: 100px;
+    padding: 0px 10px;;
 }
 .logo{
     font-size: 24px;
@@ -38,10 +42,18 @@
     font-size: 18px;
     font-weight: 10;
     color: #E5E7EB;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 button{
-    margin: 0px;
+    margin-top: -100px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 25px;
 }
 
 .big-image{
@@ -62,4 +74,104 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.random{
+    font-weight: bold;
+    padding: 50px;
+    margin: auto;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 7px;
+}
+
+.flowing-squares{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.sqaure-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext{
+    text-align: center;
+    width: 200px;
+}
+
+.testimonial{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+    align-items: center;
+    padding: 100px;
+}
+
+.testiment-container{
+    display: flex;
+    width: 80vw;
+    max-width: 1000px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.speaker{
+    align-self: flex-end;
+    font-weight: bold;
+}
+.bottom{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 60vw;
+    max-width: 800px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 100px 250px;
+    border-radius: 20px;
+}
+
+.sign{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.call{
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px;
+}
+
+.lower-button{
+    align-self: flex-end;
+    border: 3px solid white;
+    width: 200px;
 }
